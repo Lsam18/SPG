@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -10px;
 }
 
 
@@ -185,6 +186,7 @@ body {
 .container {
     display: none;
     text-align: center;
+    margin-bottom: 60px; /* Adjusted margin to prevent overlap with the footer */
 }
 
 .show-container {
@@ -211,6 +213,7 @@ h1 {
     color: #00ff6e;
     text-align: center;
     margin-top: 20px;
+    size: 14px;
 }
 
 .pwdlength {
@@ -340,7 +343,6 @@ button:hover {
     transform: scale(1.2);
 }
 
-/* Mobile Responsive Styles */
 @media only screen and (max-width: 720px) {
     .footer-content {
         flex-direction: column;
@@ -351,6 +353,7 @@ button:hover {
         margin: 10px 0;
     }
 }
+
 
 /* Mobile Responsive Styles */
 @media only screen and (max-width: 420px) {
@@ -390,6 +393,7 @@ button:hover {
 
     .password {
         font-size: 16px;
+        margin-bottom: 60px; /* Adjusted margin to prevent overlap with the footer */
     }
 
     .social-media a {
@@ -397,3 +401,49 @@ button:hover {
     }
 }
 
+/* Add this CSS at the end of your existing CSS file */
+@media only screen and (max-width: 420px) {
+    .inner-container {
+        padding: 6px;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .copy-button,
+    button {
+        padding: 3px 6px;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+    .password {
+        font-size: 12px;
+        margin-bottom: 16px;
+        padding: 6px;
+    }
+
+    .social-media a {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 8px 0;
+    }
+
+    .footer-content p {
+        font-size: 10px;
+    }
+
+    .social-media a {
+        font-size: 10px;
+    }
+}
