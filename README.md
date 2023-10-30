@@ -40,7 +40,7 @@ The project is written in HTML, CSS, and JavaScript and can be easily deployed t
 
 ### Credits
 
-This project is developed and maintained by [LAKSHAN SAMEERA/Lsam18]. It is free to use and open to contributions from the open-source community.
+This project is developed and maintained by LAKSHAN SAMEERA/Lsam18. It is free to use and open to contributions from the open-source community.
 
 ### License
 
@@ -48,7 +48,7 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 ### Contact
 
-For questions, feedback, or inquiries, please contact [lakshan.sam28@gmail.com].
+For questions, feedback, or inquiries, please contact lakshan.sam28@gmail.com.
 
 ---
 
