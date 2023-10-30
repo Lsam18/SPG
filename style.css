@@ -341,7 +341,7 @@ button:hover {
 }
 
 /* Mobile Responsive Styles */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 720px) {
     .footer-content {
         flex-direction: column;
         padding: 10px 0;
