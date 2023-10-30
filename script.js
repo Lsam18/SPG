@@ -1,7 +1,7 @@
 function showPasswordGenerator() {
     var container = document.getElementById("container");
     container.style.display = "block";
-    setTimeout(function () {
+    setTimeout(function() {
         container.classList.add("show-container");
         var startButton = document.querySelector(".start-button");
         startButton.style.display = "none";
@@ -27,7 +27,7 @@ function displayMessage(message) {
     messageElement.textContent = message;
     messageElement.style.display = "block";
 
-    setTimeout(function () {
+    setTimeout(function() {
         messageElement.style.display = "none";
     }, 2000);
 }
@@ -70,9 +70,7 @@ function copyPassword() {
     // Display the "Password Copied" message
     var copyMessage = document.getElementById("copy-message");
     copyMessage.style.display = "block";
-    setTimeout(function () {
+    setTimeout(function() {
         copyMessage.style.display = "none";
     }, 2000);
 }
-
-
