@@ -81,6 +81,14 @@ body {
     padding-bottom: 150px; /* Increased padding to create more space */
 }
 
+.about-box {
+    background-color: rgba(0, 255, 118, 0.1);
+    border: 1px solid #00ff6e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 .about .heading {
     color: #00ff6e;
@@ -102,7 +110,7 @@ body {
 }
 
 .about-content {
-    text-align: left;
+    text-align: center;
 }
 
 .about-content h3 {
@@ -123,6 +131,24 @@ body {
     width: 200px;
 }
 
+@media only screen and (max-width: 420px) {
+    .about-box {
+        padding: 10px;
+    }
+
+    .about-content h3 {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+}
+
+.btn-cert {
+    text-align: center;
+    margin-top: 20px;
+}
 
 .btn-cert .btn {
     display: inline-block;
@@ -139,6 +165,7 @@ body {
 .btn-cert .btn:hover {
     background-color: #00e8b6;
 }
+
 
 .animate {
     display: inline-block;
