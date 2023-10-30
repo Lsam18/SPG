@@ -40,7 +40,7 @@ The project is written in HTML, CSS, and JavaScript and can be easily deployed t
 
 ### Credits
 
-This project is developed and maintained by [lAKSHAN SAMEERA/Lsam18]. It is free to use and open to contributions from the open-source community.
+This project is developed and maintained by [LAKSHAN SAMEERA/Lsam18]. It is free to use and open to contributions from the open-source community.
 
 ### License
 
