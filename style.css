@@ -1,0 +1,399 @@
+body {
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff6e;
+    background: url("Images/Matrix.jpg") no-repeat center center fixed;
+}
+
+.header {
+    background-color: #02514b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #00ff6e;
+}
+
+
+.start-button {
+    position: absolute;
+    align-content: center;
+    margin-left: -150px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00ff77;
+    color: #000000;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.3s;
+    animation: pulse 2s infinite;
+}
+
+/* styles.css */
+.about-section {
+    text-align: center;
+    display: none;
+}
+
+.about {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 150px; /* Increased padding to create more space */
+}
+
+
+.about .heading {
+    color: #00ff6e;
+    font-size: 28px;
+    text-align: center;
+}
+
+.about-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.about-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about-content {
+    text-align: left;
+}
+
+.about-content h3 {
+    color: #00ff6e;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.Profile {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+.btn-cert .btn {
+    display: inline-block;
+    background-color: #00ff77;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-cert .btn:hover {
+    background-color: #00e8b6;
+}
+
+.animate {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00ff6e;
+    border-radius: 50%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.animate:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #00ff6e;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.start-button:hover {
+    background-color: #00e8b6;
+    transform: scale(1.1);
+    animation: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+.container {
+    display: none;
+    text-align: center;
+}
+
+.show-container {
+
+    margin-top: 120px;
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.matrix-text {
+    font-family: 'Matrix Code NFI', monospace;
+}
+
+h1 {
+    color: #00ff6e;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pwdlength {
+    color: #ddd;
+}
+
+.inner-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #02514b, #000000);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 255, 17);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #00ff77;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00e8b6;
+}
+
+.password {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: #00ff6e;
+    border: 1px solid #ddd;
+}
+
+.message {
+    text-align: center;
+    color: #ff0000;
+    margin-top: 10px;
+    animation: fadeIn 0.5s;
+}
+
+.copy-button {
+    background-color: #00ff77;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.copy-button:hover {
+    background-color: #00e8b6;
+}
+
+.copy-message {
+    text-align: center;
+    color: #00ff6e;
+    margin-top: 10px;
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.footer {
+    background-color: #02514b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    flex: 1;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 420px) {
+    .footer-content {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .social-media a {
+        margin: 10px 0;
+    }
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 420px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin: 0 10px;
+    }
+
+    .inner-container {
+        padding: 10px;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .copy-button,
+    button {
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+
+    .password {
+        font-size: 16px;
+    }
+
+    .social-media a {
+        font-size: 24px;
+    }
+}
+
